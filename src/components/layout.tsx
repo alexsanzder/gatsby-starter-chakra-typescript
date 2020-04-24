@@ -10,11 +10,11 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import { Box, Link, Icon } from "@chakra-ui/core"
 
-interface Props {
-  children?: any
+export interface LayoutProps {
+  children: React.ReactNode
 }
 
-const Layout = ({ children }: Props) => {
+const Layout = ({ children }: LayoutProps): JSX.Element => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
       site {

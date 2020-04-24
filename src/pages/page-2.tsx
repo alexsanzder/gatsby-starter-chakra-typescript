@@ -5,7 +5,7 @@ import { Heading, Link, Text } from "@chakra-ui/core"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
-const SecondPage = () => (
+const SecondPage = (): JSX.Element => (
   <Layout>
     <SEO title="Page two" />
     <Heading as="h1">Hi from the second page</Heading>

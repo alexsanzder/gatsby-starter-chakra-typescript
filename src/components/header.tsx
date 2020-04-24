@@ -9,11 +9,11 @@ import {
   IconButton,
 } from "@chakra-ui/core"
 
-interface Props {
+export interface HeaderProps {
   siteTitle?: string
 }
 
-const Header = ({ siteTitle }: Props) => {
+const Header = ({ siteTitle }: HeaderProps): JSX.Element => {
   const { colorMode, toggleColorMode } = useColorMode()
 
   return (

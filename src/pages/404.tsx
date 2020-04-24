@@ -4,7 +4,7 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Heading, Text } from "@chakra-ui/core"
 
-const NotFoundPage = () => (
+const NotFoundPage = (): JSX.Element => (
   <Layout>
     <SEO title="404: Not found" />
     <Heading>NOT FOUND</Heading>
